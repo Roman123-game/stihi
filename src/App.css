@@ -20,10 +20,11 @@
   border-radius: 8px;
   padding:0px 20px;
   margin: 20px;
-  width: 200px;
+  width: 210px;
   height: 300px;
   box-shadow: 2px 2px 8px #eee;
-  
-
- 
+   
+}
+.text{
+white-space: pre-line 
 }

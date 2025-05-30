@@ -11,7 +11,7 @@ function App() {
         {Objects.map(obj => (
           <div className='second-cont' key={obj.id} >
             <h3>{obj.title}</h3>
-            <p>{obj.text}</p>
+            <p className='text'>{obj.text}</p>
             <p>{obj.author}</p>
           </div>
         ))}
