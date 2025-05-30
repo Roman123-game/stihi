@@ -5,15 +5,19 @@
   text-align: center;
 }
 
-.mainCont
-{ display: 'flex'; 
-  gap: '1rem'; 
-  flex-wrap: 'wrap' 
+.mainCont {
+  display: 'flex';
+  gap: '1rem';
+  flex-wrap: 'wrap';
+
 }
-.secondCont
-{ border: '1px solid #ccc';
-   border-radius: '8px';
-    padding: '1rem'; 
-    min-width: '200px'; 
-   box-shadow: 2px 2px 8px #eee 
-  }
+
+.secondCont {
+  border: '1px solid #ccc';
+  border-radius: '8px';
+  padding: '1rem';
+  min-width: '200px';
+  box-shadow: 2px 2px 8px #eee;
+  margin: 0px 20px;
+  width: auto;
+}
