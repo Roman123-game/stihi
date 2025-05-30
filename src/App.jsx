@@ -6,28 +6,26 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  // Example array of objects
+  const objects = [
+    { id: 1, title: 'Card One', description: 'This is the first card.' },
+    { id: 2, title: 'Card Two', description: 'This is the second card.' },
+    { id: 3, title: 'Card Three', description: 'This is the third card.' },
+  ];
+
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+  
+      <h2>Poem</h2>
+      <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+        {objects.map(obj => (
+          <div key={obj.id} style={{ border: '1px solid #ccc', borderRadius: '8px', padding: '1rem', minWidth: '200px', boxShadow: '2px 2px 8px #eee' }}>
+            <h3>{obj.title}</h3>
+            <p>{obj.text}</p>
+            <p>{obj.author}</p>
+          </div>
+        ))}
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   )
 }
