@@ -5,18 +5,19 @@
   text-align: center;
 }
 
-.mainCont {
+.main-cont {
   display: 'flex';
   gap: '1rem';
   flex-wrap: 'wrap';
 
 }
 
-.secondCont {
+.second-cont {
   border: '1px solid #ccc';
   border-radius: '8px';
-  padding: '1rem';
+  padding:0px 20px;
   min-width: '200px';
   box-shadow: 2px 2px 8px #eee;
+
  
 }

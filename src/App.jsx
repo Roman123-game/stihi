@@ -7,9 +7,9 @@ function App() {
   return (
     <Fragment>
       <h2>Поемы</h2>
-      <div className='mainCont'>
+      <div className='main-cont'>
         {Objects.map(obj => (
-          <div className='secondCont' key={obj.id} >
+          <div className='second-cont' key={obj.id} >
             <h3>{obj.title}</h3>
             <p>{obj.text}</p>
             <p>{obj.author}</p>
