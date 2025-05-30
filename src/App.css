@@ -6,17 +6,22 @@
 }
 
 .main-cont {
-  display: 'flex';
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   gap: '1rem';
   flex-wrap: 'wrap';
 
 }
 
 .second-cont {
-  border: '1px solid #ccc';
-  border-radius: '8px';
+  border: 1px solid #ccc;
+  border-radius: 8px;
   padding:0px 20px;
-  min-width: '200px';
+  margin: 20px;
+  width: 200px;
+  height: 300px;
   box-shadow: 2px 2px 8px #eee;
 
  
